@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #2974adc5;
+  --second-color: #05366d;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: var(--primary-color);
+}
+
+.navbar {
+  display: flex;
+  margin: 0;
+  list-style-type: none;
+  padding: 0px;
+  justify-content: flex-end;  
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  margin-top: 13px;
+}
+
+.navbar li a:hover {
+  border: var(--second-color); /*continuar daqui, fazer o hover corretamento*/
+}
+
+/* O QUE PRECISA SER FEITO NO HOME
+    fazer o layout ficar responsivo
+    ajeitar os p
+    escolher as fonts
+    por avatar
+    por o icon de arrow down
+    adicionar icon no head
+*/
