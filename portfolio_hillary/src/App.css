@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
   --primary-color: #2974adc5;
-  --second-color: #05366d;
+  --primary-color-dark: #00275b;
+  --second-color: #0e5490;
+  --second-color-dark: #0a457e;
+
 }
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -15,33 +20,90 @@ body {
 .navbar {
   display: flex;
   margin: 0;
+  padding: 0;
   list-style-type: none;
-  padding: 0px;
   justify-content: flex-end;  
 }
 
-.navbar li {
-  margin-left: 20px;
-}
-
 .navbar li a {
+  margin-left: 1rem;
   text-decoration: none;
-  padding: 10px;
+  padding: 0.1rem;
   display: inline-block;
   color: #fff;
   position: relative;
-  margin-top: 13px;
+  margin-top: 1rem;
+  margin-right: 1rem;;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
 }
 
-.navbar li a:hover {
-  border: var(--second-color); /*continuar daqui, fazer o hover corretamento*/
+.navbar li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color-dark);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
+.navbar li a:hover::after,
+.navbar li a:focus::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.intro {
+  display: block;
+  color: #fff;
+  width: 40rem;
+  height: 25rem;
+  margin-top: 8rem;
+  margin-left: 8rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.intro h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 1.8rem;
+  color: var(--second-color-dark);
+}
+
+.intro p{
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--primary-color-dark);
+}
+
+.spn-header{
+  color: hsla(229, 70%, 18%, 0.966);
+  position:absolute;
+  top:83%;
+  left:50%;
+  transform:translate(-50%, 10%);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.spn-header:hover {
+  color: var(--second-color);
+}
+
+.arrowInteration {
+  margin-top: 2rem;
+  margin-left: 49%;
+}
 /* O QUE PRECISA SER FEITO NO HOME
-    fazer o layout ficar responsivo
-    ajeitar os p
-    escolher as fonts
-    por avatar
-    por o icon de arrow down
-    adicionar icon no head
+    fazer o layout ficar responsivo *
+    escolher as fonts *
+    por avatar *
+    por o icon de arrow down **
+    explorar o head para manipular o nome no browser
 */

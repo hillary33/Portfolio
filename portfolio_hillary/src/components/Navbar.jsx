@@ -2,11 +2,11 @@ function Navbar(){
     return(
         <>
             <ul className="navbar">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#about">SOBRE</a></li>
-                <li><a href="#project">PROJETOS</a></li>
-                <li><a href="#certificate">CERTIFICADOS</a></li>
-                <li><a href="contact">CONTATO</a></li>            
+                <li><a href="/">HOME</a></li>
+                <li><a href="/AboutMe">SOBRE</a></li>
+                <li><a href="/Project">PROJETOS</a></li>
+                <li><a href="/Certificate">CERTIFICADOS</a></li>
+                <li><a href="/Contact">CONTATO</a></li>            
             </ul>  
         </>
     )
