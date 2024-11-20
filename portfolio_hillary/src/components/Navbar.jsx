@@ -1,4 +1,4 @@
-function Navbar(){
+export function Navbar(){
     return(
         <>
             <ul className="navbar">
@@ -12,4 +12,3 @@ function Navbar(){
     )
 }
 
-export default Navbar;
