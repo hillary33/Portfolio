@@ -1,9 +1,14 @@
-//page project
-// page sobre mim
+import { ContainerInfo } from "../components/ContainerInfo";
 
-export default function Project(){
+function Project(){
     return(
         <>
+        <div className="ctn-project">
+            <h2>PROJETOS</h2>
+            <ContainerInfo />
+        </div>
         </>
     )
 }
+
+export default Project;

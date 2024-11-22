@@ -5,7 +5,7 @@ export function Descrition() {
                 <h1>Um pouco sobre mim...</h1>
             
                 <p>
-                Meu nome é Hillary Santos, tenho 20 anos, nasci em São Paulo e cresci em Cotia até os 17 anos. Em 2022, fui aprovada no curso de Análise e Desenvolvimento de Sistemas no IFSC em Canoinhas, SC. Ao longo da faculdade, participei de diversos projetos, explorando várias áreas da TI, mas decidi me especializar em front-end. Durante essa jornada, tive oportunidades de estágio e trabalhei em vários projetos que fortaleceram minhas habilidades.
+                Meu nome é Hillary Santos, tenho 20 anos, nasci em São Paulo e cresci em Cotia até os 17 anos. Em 2022, fui aprovada no curso de Análise e Desenvolvimento de Sistemas no IFSC em Canoinhas, SC. Ao longo da faculdade, participei de diversos projetos, explorando várias áreas de TI, mas decidi me especializar em front-end. Durante essa jornada, tive oportunidade de estágio e trabalhei em vários projetos que fortaleceram minhas habilidades.
                 </p>
                 <p>
                 Sou extrovertida, paciente, pró-ativa e aprendo rapidamente, o que me ajuda a me adaptar e colaborar bem com as pessoas ao meu redor. Em setembro de 2023, participei de um projeto de extensão com duas colegas, onde desenvolvemos um site e uma agenda para a ONG Rede Feminina de Canoinhas, que combate o câncer. Nesse projeto, utilizei tecnologias como React.js, Node.js, APIs, e bancos de dados, além de trabalhar em equipe e interagir diretamente com as clientes, o que foi uma experiência enriquecedora.
