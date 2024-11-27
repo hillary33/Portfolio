@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    width: 95%;
+    height: 25rem;
+    margin-top: 5.5rem;
+  }
+  
+  .textHeader {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    color: var(--second-color-dark);
+  }
+  
+  .textHeader h2 {
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 1.8rem;
+  }
+  
+  .textHeader h2:hover {
+    color: #FFF;
+  }
+  
+  .textHeader p{
+    font-size: 1.8rem;
+    text-align: center;
+    width: 40rem;
+  }
+  
+  .logo {
+    display: flex;
+    width: 40rem;
+    height: 25rem;
+    justify-content: right;
+    margin: 0;
+  }
+  
+  span {
+    text-decoration: none;
+    color: hsla(229, 70%, 18%, 0.966);
+    position:absolute;
+    top:83%;
+    left:50%;
+    transform:translate(-50%, 10%);
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  span:hover {
+    color: var(--second-color);
+  }
+  
+  
+  @keyframes upDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    
+    50% {
+      transform: translateY(-0.7rem);
+    }
+  
+  }
+  img {
+    margin-top: 5.5rem;
+    margin-left: 49%;
+    animation: upDown 1.5s infinite ease-in-out;
+  }
